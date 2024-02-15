@@ -32,11 +32,23 @@ To get started with the assignments, follow the steps below:
 ## Prerequisites ✅
 
 - Basic knowledge of Java
-  - Although it is not necessary to know in order to solve the problems, I advise you to also read about `Map<>` in Java and use them in your solutions.
+  - Although it is not necessary to know in order to solve the problems, I advise you to also read about `Map<>` & `HashMap<>` in Java and use them in your solutions.
 - Familiarity with Git and GitHub basics.
+
+## Evaluation 📃
+- Your code should compile and run without any errors
+- Your code should pass all the unit tests included in the `src/test/java` directory.
+- Your code should be well-organized, readable, properly commented and follows clean code principles
+- You should use Git for version control and include meaningful commit messages
+
+**Attention: Using ChatGPT or any other AI generative model for any section of the assignment will result in a score of 0 without any warnings.**
 
 ## Resources 📚
 
 🔗 [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
 🔗 [Learn Java syntax](https://www.w3schools.com/java/default.asp) (You can find resources for Map and HashMap here!)
+
+
+---
+Good Luck & Keep On Learning.
