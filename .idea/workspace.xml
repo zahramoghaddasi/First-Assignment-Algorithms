@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9b97d8a-2597-4f93-8535-7f0600c7f09f" name="Changes" comment="" />
+    <list default="true" id="d9b07653-decc-4300-8a9d-f4423882f1e8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,13 +14,14 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2cJZ2Km6ABKJgSCRi78d8go9CMU" />
+  <component name="ProjectId" id="2cOjD3vVVdz6Rs1VvuL3kdMmlMI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -25,10 +29,6 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -47,32 +47,15 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Exercises2Test.permuteTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Second-Assignment-Algorithms" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Exercises2Test" />
-      <option name="METHOD_NAME" value="permuteTest1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.Exercises2Test.permuteTest1" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b9b97d8a-2597-4f93-8535-7f0600c7f09f" name="Changes" comment="" />
-      <created>1707831433543</created>
+      <changelist id="d9b07653-decc-4300-8a9d-f4423882f1e8" name="Changes" comment="" />
+      <created>1707989396104</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1707831433543</updated>
-      <workItem from="1707831434814" duration="1923000" />
+      <updated>1707989396104</updated>
+      <workItem from="1707989397553" duration="1745000" />
     </task>
     <servers />
   </component>
