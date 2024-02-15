@@ -31,17 +31,29 @@ To get started with the assignments, follow the steps below:
 
 ## Prerequisites ✅
 
+Before attempting this assignment, make sure you have the following:
+
 - Basic knowledge of Java
-  - Although it is not necessary to know in order to solve the problems, I advise you to also read about `Map<>` & `HashMap<>` in Java and use them in your solutions.
 - Familiarity with Git and GitHub basics.
 
 ## Evaluation 📃
-- Your code should compile and run without any errors
-- Your code should pass all the unit tests included in the `src/test/java` directory.
-- Your code should be well-organized, readable, properly commented and follows clean code principles
-- You should use Git for version control and include meaningful commit messages
 
-**Attention: Using ChatGPT or any other AI generative model for any section of the assignment will result in a score of 0 without any warnings.**
+To successfully complete this assignment, you need to meet the following requirements:
+
+1. Ensure your code compiles and runs without any errors.
+2. Pass all the unit tests provided in the `src/test/java` directory.
+3. Organize your code in a clear and readable manner. Use proper indentation and follow clean code principles.
+4. Add comments to explain your code and make it easier to understand.
+
+Remember to use Git for version control throughout the assignment. Commit your changes frequently and provide meaningful commit messages to track your progress.
+
+**Note: It is strictly prohibited to use ChatGPT or any other AI generative model for completing any section of this assignment. Failure to comply will result in a score of 0 without any warnings.**
+
+## Notes 📝
+
+- Although it is not necessary to know in order to solve the problems, I advise you to also read about `Map<>` & `HashMap<>` in Java and use them in your solutions.
+- It's worth mentioning you are free to use ChatGPT or any other AI generative model in order to learn topics that you can not find suitable resources for on the internet such as `Map<>` & `HashMap<>`.
+
 
 ## Resources 📚
 
