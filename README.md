@@ -6,8 +6,8 @@ Welcome to your second assignment in the Advanced Programming course! This repos
 
 To get started with the assignments, follow the steps below:
 
-1. Clone the repository to your local machine using the following command:
-
+1. Fork this repository and clone the fork to your local machine using the following command:
+   
    ```
    git clone <repository_url>
    ```
