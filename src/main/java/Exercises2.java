@@ -14,7 +14,8 @@ public class Exercises2 {
     */
 
     public int[] twoSum(int[] nums, int target) {
-
+        // TODO
+        return null;
     }
 
     /*
@@ -48,7 +49,8 @@ public class Exercises2 {
     */
 
     public int romanToInt(String s) {
-
+        // TODO
+        return 0;
     }
 
     /*
@@ -57,6 +59,11 @@ public class Exercises2 {
     */
 
     public List<List<Integer>> permute(int[] nums) {
+        // TODO
+        return null;
+    }
 
+    public static void main(String[] args) {
+        // test your code here!
     }
 }

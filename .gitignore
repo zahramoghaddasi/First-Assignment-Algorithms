@@ -221,23 +221,5 @@ $RECYCLE.BIN/
 .idea/modules.xml
 .idea/modules/Sixth-Assignment-Multithread-Basics.test.iml
 .idea/vcs.xml
-build/reports/tests/test/classes/sbu.cs.CPU_SimulatorTest.html
-build/reports/tests/test/css/base-style.css
-build/reports/tests/test/css/style.css
-build/reports/tests/test/index.html
-build/reports/tests/test/js/report.js
-build/reports/tests/test/packages/sbu.cs.html
-build/test-results/test/binary/output.bin
-build/test-results/test/binary/output.bin.idx
-build/test-results/test/binary/results.bin
-build/test-results/test/TEST-sbu.cs.CPU_SimulatorTest.xml
-build/tmp/compileJava/previous-compilation-data.bin
-build/tmp/compileTestJava/previous-compilation-data.bin
-build/test-results/test/TEST-sbu.cs.priority.RunnerTest.xml
-build/reports/tests/test/classes/sbu.cs.priority.RunnerTest.html
-build/reports/tests/test/packages/sbu.cs.priority.html
-build/test-results/test/TEST-sbu.cs.CalculatePi.PiCalculatorTest.xml
-build/reports/tests/test/packages/sbu.cs.CalculatePi.html
-build/reports/tests/test/classes/sbu.cs.CalculatePi.PiCalculatorTest.html
 
 /target/
