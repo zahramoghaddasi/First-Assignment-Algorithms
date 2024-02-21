@@ -6,6 +6,8 @@ Welcome to your second assignment in the Advanced Programming course! This repos
 
 To get started with this assignment, you need to Fork this repository and clone the fork to your local machine. The repository contains the problem statements, source files, and unit tests.
 
+Ensure to enable workflows in the `Actions` tab of your fork of the repository. This will allow GitHub to run the provided test cases.
+
 ## Prerequisites ✅
 
 Before attempting this assignment, make sure you have the following:
