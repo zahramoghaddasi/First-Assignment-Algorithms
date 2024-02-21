@@ -4,30 +4,7 @@ Welcome to your second assignment in the Advanced Programming course! This repos
 
 ## Getting Started 🚀
 
-To get started with the assignments, follow the steps below:
-
-1. Fork this repository and clone the fork to your local machine using the following command:
-   
-   ```
-   git clone <repository_url>
-   ```
-
-3. Complete the tasks given in each assignment. The details and requirements for each assignment can be found as a comment block within their respective methods.
-
-4. Once you have completed an assignment, commit your changes using the following commands:
-
-   ```
-   git add . or git add -A
-   git commit -m "Completed Assignment <number>"
-   ```
-
-6. Push your changes to the remote repository using the following command:
-
-   ```
-   git push origin main
-   ```
-
-8. If you encounter any issues or have questions, feel free to create an issue in the repository or reach out to your mentor. 🤝
+To get started with this assignment, you need to Fork this repository and clone the fork to your local machine. The repository contains the problem statements, source files, and unit tests.
 
 ## Prerequisites ✅
 
