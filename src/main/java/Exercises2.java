@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Scanner;
 
 public class Exercises2 {
 
@@ -14,7 +15,13 @@ public class Exercises2 {
     */
 
     public int[] twoSum(int[] nums, int target) {
-        // TODO
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i + 1; j < nums.length; j++) {
+                if (nums[i] + nums[j] == target) {
+                    return new int[]{i,j};
+                }
+            }
+        }
         return null;
     }
 
@@ -49,8 +56,24 @@ public class Exercises2 {
     */
 
     public int romanToInt(String s) {
-        // TODO
-        return 0;
+        Map<Character, Integer> romanToValue = new HashMap<>();
+        romanToValue.put('I', 1);
+        romanToValue.put('V', 5);
+        romanToValue.put('X', 10);
+        romanToValue.put('L', 50);
+        romanToValue.put('C', 100);
+        romanToValue.put('D', 500);
+        romanToValue.put('M', 1000);
+        int finalVar = romanToValue.get(s.charAt(s.length()-1));
+        for(int i = s.length()-2 ; i >= 0 ; i--){
+            if(romanToValue.get(s.charAt(i)) < romanToValue.get(s.charAt(i+1))){
+                finalVar -= romanToValue.get(s.charAt(i));
+            }
+            else{
+                finalVar += romanToValue.get(s.charAt(i));
+            }
+        }
+        return finalVar;
     }
 
     /*
@@ -59,7 +82,34 @@ public class Exercises2 {
     */
 
     public List<List<Integer>> permute(int[] nums) {
-        // TODO
+        ArrayList<ArrayList<Integer>> ans = new ArrayList<ArrayList<Integer>>();
+        ArrayList<Integer> keep = new ArrayList<Integer>();
+        keep.add(nums[0]);
+        ans.add(keep);
+        for(int i = 1 ; i < nums.length ; i++){
+            ArrayList<ArrayList<Integer>> keep2 = new ArrayList<ArrayList<Integer>>();
+            for(int j = 0 ; j < ans.size() ; j++){
+                for(int k = 0 ; k <= i ; k++){
+                    ArrayList<Integer> keep3 = new ArrayList<Integer>();
+                    keep3 = (ans.get(j));
+                    ArrayList<Integer> keep4 = new ArrayList<Integer>();
+                    for(int m = 0 ; m < k ; m++)
+                        keep4.add(keep3.get(m));
+                    keep4.add(nums[i]);
+                    for(int m = k ; m <= (i-1) ; m++)
+                        keep4.add(keep3.get(m));
+                    keep2.add(keep4);
+                }
+            }
+            ans  = keep2;
+        }
+        for(int i = 0 ; i < ans.size() ; i++){
+            for(int j = 0 ; j < ans.get(i).size() ; j++ ){
+                System.out.print(ans.get(i).get(j));
+                System.out.print(' ');
+            }
+            System.out.print("\n");
+        }
         return null;
     }
 
