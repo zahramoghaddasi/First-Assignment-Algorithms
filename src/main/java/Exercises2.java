@@ -82,35 +82,24 @@ public class Exercises2 {
     */
 
     public List<List<Integer>> permute(int[] nums) {
-        ArrayList<ArrayList<Integer>> ans = new ArrayList<ArrayList<Integer>>();
-        ArrayList<Integer> keep = new ArrayList<Integer>();
-        keep.add(nums[0]);
-        ans.add(keep);
-        for(int i = 1 ; i < nums.length ; i++){
-            ArrayList<ArrayList<Integer>> keep2 = new ArrayList<ArrayList<Integer>>();
-            for(int j = 0 ; j < ans.size() ; j++){
-                for(int k = 0 ; k <= i ; k++){
-                    ArrayList<Integer> keep3 = new ArrayList<Integer>();
-                    keep3 = (ans.get(j));
-                    ArrayList<Integer> keep4 = new ArrayList<Integer>();
-                    for(int m = 0 ; m < k ; m++)
-                        keep4.add(keep3.get(m));
-                    keep4.add(nums[i]);
-                    for(int m = k ; m <= (i-1) ; m++)
-                        keep4.add(keep3.get(m));
-                    keep2.add(keep4);
-                }
-            }
-            ans  = keep2;
+        List<List<Integer>> per = new ArrayList<>();
+        permutations(nums, new ArrayList<>(), per);
+        return per;
+    }
+
+    public static void permutations(int[] nums, List<Integer> checking, List<List<Integer>> per) {
+        if (checking.size() == nums.length) {
+            per.add(new ArrayList<>(checking));
+            return;
         }
-        for(int i = 0 ; i < ans.size() ; i++){
-            for(int j = 0 ; j < ans.get(i).size() ; j++ ){
-                System.out.print(ans.get(i).get(j));
-                System.out.print(' ');
+
+        for (int i = 0; i < nums.length; i++) {
+            if (!checking.contains(nums[i])) {
+                checking.add(nums[i]);
+                permutations(nums , checking, per);
+                checking.remove(checking.size() - 1);
             }
-            System.out.print("\n");
         }
-        return null;
     }
 
     public static void main(String[] args) {
